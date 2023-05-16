@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.holdAll {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.menu {
+  height: 100vh;
+  width: 300px;
+  background-color: #30419b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuList {
+  background-color: #222e68;
+  width: 100%;
+  padding: 18px;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.menuList img {
+  margin-right: 20px;
+}
+
+.holdContent {
+  width: 100%;
+  height: 100vh;
+  background-color: #f2f2f2;
+  overflow-y: scroll;
+}
+
+.marketing {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #1e1e1e;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.social {
+  background-color: white;
+  padding: 30px;
+  margin: 10px 50px 50px 50px;
+}
+
+.social2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #1e1e1e;
+}
+
+.social3 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #1e1e1e;
+  text-align: right;
+}
+
+.social6I {
+  width: 100%;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social6 {
+  width: 900px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 230px 230px 230px;
+  grid-template-rows: 200px 200px 200px;
+  justify-content: center;
+  gap: 50px;
+}
+
+.social7 {
+  background: #eaeaea;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.social8 {
+  width: 100px;
+  height: 100px;
+}
+
+.social9 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 31px;
+  color: #1e1e1e;
+  margin-top: 10px;
+}
